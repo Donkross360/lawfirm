@@ -71,7 +71,7 @@ function LoginForm() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@richardsonlaw.com"
+                placeholder="admin@ucheanyanwuandco.com"
                 required
               />
             </div>
@@ -1717,7 +1717,7 @@ function SiteSettingsManager() {
               type="email"
               value={settings.contact_email}
               onChange={(e) => setSettings({ ...settings, contact_email: e.target.value })}
-              placeholder="info@richardsonlaw.com"
+              placeholder="info@ucheanyanwuandco.com"
             />
             <p className="text-sm text-soft-gray-blue mt-1">
               This email will receive consultation requests from the contact form.

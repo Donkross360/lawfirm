@@ -3,20 +3,20 @@ import { Attorney, BlogPost, Service } from './types';
 export const attorneys: Attorney[] = [
   {
     id: '1',
-    name: 'Sarah Richardson',
+    name: 'Uche Anyanwu',
     title: 'Managing Partner',
     image: 'https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    bio: 'Sarah Richardson brings over 20 years of experience in corporate law and litigation. As Managing Partner, she leads our team with exceptional dedication to client service and legal excellence.',
-    email: 'sarah.richardson@lawfirm.com',
+    bio: 'Uche Anyanwu brings over 20 years of experience in corporate law and litigation. As Managing Partner, she leads our team with exceptional dedication to client service and legal excellence.',
+    email: 'uche@ucheanyanwuandco.com',
     phone: '(555) 123-4567',
     expertise: ['Corporate Law', 'Mergers & Acquisitions', 'Securities Law', 'Commercial Litigation'],
     education: ['Harvard Law School, J.D.', 'Yale University, B.A. Economics'],
     experience: [
-      'Managing Partner, Richardson & Associates (2015-Present)',
+      'Managing Partner, UcheAnyanwu & Co. (2015-Present)',
       'Senior Partner, Davis & Partners (2010-2015)',
       'Associate, Sullivan & Cromwell LLP (2005-2010)'
     ],
-    slug: 'sarah-richardson'
+    slug: 'uche-anyanwu'
   },
   {
     id: '2',
@@ -29,7 +29,7 @@ export const attorneys: Attorney[] = [
     expertise: ['Intellectual Property', 'Patent Law', 'Technology Transactions', 'Licensing'],
     education: ['Stanford Law School, J.D.', 'MIT, B.S. Computer Science'],
     experience: [
-      'Senior Partner, Richardson & Associates (2012-Present)',
+      'Senior Partner, UcheAnyanwu & Co. (2012-Present)',
       'Partner, Wilson Sonsini Goodrich & Rosati (2008-2012)',
       'Associate, Cooley LLP (2004-2008)'
     ],
@@ -46,7 +46,7 @@ export const attorneys: Attorney[] = [
     expertise: ['Employment Law', 'Labor Relations', 'Regulatory Compliance', 'Workplace Investigations'],
     education: ['Columbia Law School, J.D.', 'University of Pennsylvania, B.A. Political Science'],
     experience: [
-      'Partner, Richardson & Associates (2018-Present)',
+      'Partner, UcheAnyanwu & Co. (2018-Present)',
       'Senior Associate, Littler Mendelson (2013-2018)',
       'Associate, Gibson Dunn & Crutcher (2009-2013)'
     ],
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'What businesses need to know about the new beneficial ownership reporting requirements and compliance deadlines.',
     content: 'The Corporate Transparency Act represents a significant shift in regulatory compliance requirements for many businesses...',
     image: 'https://images.pexels.com/photos/7681091/pexels-photo-7681091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    author: 'Sarah Richardson',
+    author: 'Uche Anyanwu',
     category: 'Corporate Law',
     publishedAt: '2024-01-15',
     readTime: 8,

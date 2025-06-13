@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import { Toaster } from '@/components/ui/sonner';
 
 export const metadata: Metadata = {
-  title: 'Richardson & Associates - Premier Law Firm',
+  title: 'UcheAnyanwu & Co. - Premier Law Firm',
   description: 'Exceptional legal services with integrity, expertise, and dedication to our clients\' success. Specializing in corporate law, M&A, intellectual property, and more.',
   keywords: 'law firm, attorney, legal services, corporate law, litigation, intellectual property',
 };

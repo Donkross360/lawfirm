@@ -36,14 +36,14 @@ INSERT INTO modal_content (key, title, content, image_url, button_text, active) 
     </ul>
   </div>
   
-  <p class="text-lg font-medium text-navy">Ready to experience the Richardson & Associates difference? Contact us today for a consultation.</p>
+  <p class="text-lg font-medium text-navy">Ready to experience the UcheAnyanwu & Co. difference? Contact us today for a consultation.</p>
 </div>', 
 'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', 
 'Learn More', true),
 
 ('cta-learn-more', 'Why UcheAnyanwu & Co.?', 
 '<div class="space-y-6">
-  <p class="text-lg">When you choose Richardson & Associates, you''re not just hiring a law firm – you''re partnering with a team of dedicated professionals who are committed to your success and understand the complexities of today''s legal landscape.</p>
+  <p class="text-lg">When you choose UcheAnyanwu & Co., you''re not just hiring a law firm – you''re partnering with a team of dedicated professionals who are committed to your success and understand the complexities of today''s legal landscape.</p>
   
   <div>
     <h3 class="text-xl font-semibold mb-3 text-navy">Our Commitment to Excellence</h3>

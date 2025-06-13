@@ -275,7 +275,7 @@ export const sendConsultationEmail = async (formData: {
   try {
     // Get the admin email from site settings
     const { data: settings } = await getSiteSettings();
-    const adminEmail = settings?.contact_email || 'info@richardsonlaw.com';
+    const adminEmail = settings?.contact_email || 'info@ucheanyanwuandco.com';
 
     // In a real application, you would use a service like:
     // - Supabase Edge Functions with email service

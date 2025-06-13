@@ -30,8 +30,8 @@ CREATE POLICY "Authenticated users can manage modal content"
 
 -- Insert sample modal content
 INSERT INTO modal_content (key, title, content, image_url, button_text, active) VALUES
-('hero-learn-more', 'About Richardson & Associates', 
-'<p>Founded in 1995, Richardson & Associates has grown from a small practice to one of the region''s most respected law firms. Our commitment to excellence, integrity, and client service has been the foundation of our success.</p>
+('hero-learn-more', 'About UcheAnyanwu & Co.', 
+'<p>Founded in 1995, UcheAnyanwu & Co. has grown from a small practice to one of the region''s most respected law firms. Our commitment to excellence, integrity, and client service has been the foundation of our success.</p>
 <h3>Our Approach</h3>
 <p>We believe that exceptional legal representation requires more than just knowledge of the law. It demands understanding our clients'' businesses, their challenges, and their goals. This client-centric approach allows us to provide strategic counsel that goes beyond legal advice.</p>
 <h3>Why Choose Us</h3>
@@ -45,8 +45,8 @@ INSERT INTO modal_content (key, title, content, image_url, button_text, active) 
 'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', 
 'Learn More', true),
 
-('cta-learn-more', 'Why Richardson & Associates?', 
-'<p>When you choose Richardson & Associates, you''re not just hiring a law firm – you''re partnering with a team of dedicated professionals who are committed to your success.</p>
+('cta-learn-more', 'Why UcheAnyanwu & Co.?', 
+'<p>When you choose UcheAnyanwu & Co., you''re not just hiring a law firm – you''re partnering with a team of dedicated professionals who are committed to your success.</p>
 <h3>Our Commitment</h3>
 <p>We understand that legal issues can be stressful and overwhelming. That''s why we''re committed to making the process as smooth and transparent as possible. From your initial consultation to the resolution of your matter, we''ll keep you informed every step of the way.</p>
 <h3>Areas of Excellence</h3>
