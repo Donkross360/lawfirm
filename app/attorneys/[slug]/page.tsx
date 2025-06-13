@@ -7,13 +7,14 @@ import { Card, CardContent } from '@/components/ui/card';
 import { getAttorneyBySlug } from '@/lib/supabase';
 
 interface AttorneyPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export default async function AttorneyPage({ params }: AttorneyPageProps) {
-  const { data: attorney, error } = await getAttorneyBySlug(params.slug);
+  const { slug } = await params;
+  const { data: attorney, error } = await getAttorneyBySlug(slug);
 
   if (error || !attorney) {
     notFound();
