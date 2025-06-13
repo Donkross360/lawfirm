@@ -437,7 +437,10 @@ export const updateBlogPost = async (id: string, updates: Partial<{
   published: boolean;
   read_time: number;
 }>) => {
-  const updateData = { ...updates };
+  // Create the update data with proper typing
+  const updateData: any = { ...updates };
+  
+  // Handle published_at field separately
   if (updates.published !== undefined) {
     updateData.published_at = updates.published ? new Date().toISOString() : null;
   }
