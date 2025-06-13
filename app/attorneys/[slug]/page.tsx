@@ -91,7 +91,7 @@ export default async function AttorneyPage({ params }: AttorneyPageProps) {
                   <h2 className="text-2xl font-bold text-navy">Areas of Expertise</h2>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {attorney.expertise.map((area) => (
+                  {attorney.expertise.map((area: string) => (
                     <Card key={area} className="border-0 shadow-sm bg-gray-50">
                       <CardContent className="p-4">
                         <p className="font-medium text-charcoal">{area}</p>
@@ -108,7 +108,7 @@ export default async function AttorneyPage({ params }: AttorneyPageProps) {
                   <h2 className="text-2xl font-bold text-navy">Education</h2>
                 </div>
                 <div className="space-y-4">
-                  {attorney.education.map((edu, index) => (
+                  {attorney.education.map((edu: string, index: number) => (
                     <Card key={index} className="border-0 shadow-sm bg-gray-50">
                       <CardContent className="p-4">
                         <p className="font-medium text-charcoal">{edu}</p>
@@ -125,7 +125,7 @@ export default async function AttorneyPage({ params }: AttorneyPageProps) {
                   <h2 className="text-2xl font-bold text-navy">Professional Experience</h2>
                 </div>
                 <div className="space-y-4">
-                  {attorney.experience.map((exp, index) => (
+                  {attorney.experience.map((exp: string, index: number) => (
                     <Card key={index} className="border-0 shadow-sm bg-gray-50">
                       <CardContent className="p-4">
                         <p className="font-medium text-charcoal">{exp}</p>
